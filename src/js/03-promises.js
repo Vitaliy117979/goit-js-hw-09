@@ -86,7 +86,6 @@ function preventDefaultForm(e) {
         `✅ Fulfilled promise ${position} in ${delay}ms`
           
         );
-        console.log(delay.value);
       })
       .catch(({ position, delay }) => {
         Notiflix.Notify.failure(
